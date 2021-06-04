@@ -34,7 +34,7 @@ def main():
         stop_btn_widget.grid_forget()
         start_btn_widget.grid(row=7,column=1)
         
-            # start_btn_widget.pack()
+         
         return
     elif None:
         pass
@@ -67,8 +67,6 @@ _clickval.grid(row=1,column=0,padx=3,pady=3)
 _interval = Label(root, text="Interval   From")
 _interval.grid(row=2,column=0,padx=1,pady=3)
 
-# _intervalfrom = Label(root, text="From")
-# _intervalfrom.grid(row=2,column=1)
 
 _intervalto = Label(root, text="to")
 _intervalto.grid(row=2,column=2)
@@ -86,7 +84,7 @@ intervalentryfrm.grid(row=2, column=1,padx=3)
 
 intervalentryto = Entry(root, textvariable=intervalValto)
 intervalentryto.grid(row=2,column=3,padx=3)
-# smartcheckval = Checkbutton(root, text="smart disable", variable=smartcheckval).grid(row=3, column=1)
+
 smartcheckbtn = Checkbutton(root, text="Smart Disable", variable=smartcheckval)
 smartcheckbtn.grid(row=4,column=1)
 
